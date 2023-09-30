@@ -52710,6 +52710,7 @@ GameObject:
   - component: {fileID: 831457312}
   - component: {fileID: 831457314}
   - component: {fileID: 831457313}
+  - component: {fileID: 831457315}
   m_Layer: 0
   m_Name: espressomachine 1
   m_TagString: Untagged
@@ -52781,6 +52782,20 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 831457311}
+  m_Mesh: {fileID: 4300000, guid: a701114f4f73445e2a34b6c76b96a622, type: 3}
+--- !u!64 &831457315
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 831457311}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: a701114f4f73445e2a34b6c76b96a622, type: 3}
 --- !u!1 &832575517
 GameObject:
